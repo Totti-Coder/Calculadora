@@ -1,20 +1,20 @@
-# 🧮 Calculadora Móvil
+# 💻 Calculadora Web (Vanilla JS)
 
-## Una calculadora simple y elegante construida con React Native y TypeScript.
+## Una calculadora totalmente funcional desarrollada con HTML, CSS y JavaScript puro.
 
-Este proyecto es una implementación de una aplicación de calculadora que ofrece funcionalidades básicas de aritmética en un entorno móvil, diseñada para ser intuitiva y visualmente atractiva.
+Este fue mi primero proyecto para practicar programacion e implementa una calculadora interactiva con reglas de validación básicas para el manejo de expresiones aritméticas. Es un excelente ejemplo de la manipulación del DOM y la lógica de aplicación sin depender de frameworks o librerías externas.
 
 ---
 
-## ✨ Características Destacadas
+## ✨ Características Principales
 
-La aplicación se centra en la funcionalidad y la experiencia de usuario:
+La aplicación se centra en la funcionalidad pura del desarrollo web:
 
-* **➕ Operaciones Aritméticas:** Soporte completo para suma, resta, multiplicación y división.
-* **🔢 Interfaz Intuitiva:** Diseño de botones grandes y una pantalla de resultados clara.
-* **📱 Diseño Móvil Nativo:** Desarrollada con React Native para una experiencia fluida en iOS y Android.
-* **💪 Código Robusto:** Implementación con **TypeScript** para un código seguro y fácil de mantener.
-* **🎨 Estilos Modernos:** Uso de *styling* nativo de React Native para una apariencia limpia.
+* **➕ Operaciones Aritméticas:** Soporte para suma, resta, multiplicación y división.
+* **❌ Manejo de Errores:** Incluye funciones de validación para evitar expresiones inválidas (ej. `**`, `/+`, operadores al inicio/fin).
+* **🗑️ Borrado Inteligente:** Botón "AC" (All Clear) para reiniciar y botón "←" para eliminar el último dígito.
+* **🌐 Tecnología Pura:** Construido exclusivamente con **HTML**, **CSS** y **JavaScript (Vanilla JS)**.
+* **🖱️ Interacción Sencilla:** Toda la funcionalidad se maneja a través de escuchadores de eventos del DOM.
 
 ---
 
@@ -22,20 +22,21 @@ La aplicación se centra en la funcionalidad y la experiencia de usuario:
 
 | Componente | Tecnología | Propósito |
 | :--- | :--- | :--- |
-| **Framework** | `React Native` | Desarrollo de aplicaciones móviles multiplataforma. |
-| **Lenguaje** | `TypeScript` | Tipado estático para asegurar la calidad y escalabilidad del código. |
-| **Estilos** | `React Native Stylesheet` | Estilos nativos para componentes. |
-| **Gestión de Estado** | *Integrado* | Se asume que usa el estado local de React (o similar) para manejar los cálculos. |
+| **Estructura** | `HTML5` | Define la estructura de la calculadora (botones y pantalla). |
+| **Estilos** | `CSS3` | Diseña la apariencia, el layout y la estética de la calculadora. |
+| **Lógica** | `JavaScript` (Vanilla JS) | Maneja la lógica de las operaciones, la interacción con el usuario y la manipulación del DOM. |
 
 ---
 
-## ⚙️ Instalación y Uso Local
+## ⚙️ Instalación y Uso
 
-Sigue estos pasos para clonar el repositorio y ejecutar la calculadora en tu entorno de desarrollo.
+Este es un proyecto simple de desarrollo web, por lo que su ejecución es directa y no requiere herramientas de compilación.
 
-### 1. Requisitos Previos
+### 1. Clonar el Repositorio
 
-Necesitarás:
+```bash
+# Clona el repositorio
+git clone [https://github.com/Totti-Coder/Calculadora.git](https://github.com/Totti-Coder/Calculadora.git)
 
-* [Node.js](https://nodejs.org/es/) (LTS).
-* [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) o [npm](https://
+# Navega al directorio
+cd Calculadora
